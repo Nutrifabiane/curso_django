@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+{% block content %}
+    <ul>
+        <li>Fundamentos Python </li>
+        <li>Fundamentos Redes</li>
+        <li>Fundamentos Nuvem</li>
+        <li>Fundamentos IA</li>
+        <li>Fundamentos Data Science</li>
+        <li>Fundamentos Django</li>
+    </ul>
+    <h1> Django DF</h1>
+    <h6> Comunidade de Desenvolvedores Django do SENAC</h6>
+{% endblock %}
+{% include 'motorartigos/partials/footer.html' %}
+
+</body>
+</html>

@@ -8,11 +8,12 @@ class AutorAdmin(admin.ModelAdmin):
     search_fields = ('nome','email')
 
 
-admin.site.register(Autor, AutorAdmin)
+
 
 class EixoAdmin(admin.ModelAdmin):
-    list_display = ('nome')
-    search_fields = ('nome')
+    list_display = ('nome',)
+    search_fields = ('nome',)
 
-admin.site.register():
+admin.site.register(Autor, AutorAdmin)
+admin.site.register(EixoTecnologia,EixoAdmin)
 
