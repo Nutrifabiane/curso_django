@@ -8,3 +8,10 @@ h1{
 img{
     width: 10%;
 }
+
+.rodape{
+    border: 2px solid black;
+    width: 100%;
+    height: 50px;
+    color: azure;
+}
